@@ -1,7 +1,7 @@
 .sidebar-logo {
       padding: 1.5rem;
 }
-  
+
 .sidebar-logo img {
       border-radius: 50%;
       -moz-border-radius: 50%;
@@ -11,6 +11,6 @@
 }
 
 .sidebar .social-icons a {
-	  margin-top: 80px;
+	    margin-top: 80px;
       padding-right: 0.5em;
 }
