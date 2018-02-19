@@ -9,7 +9,8 @@ I am a recent (Dec '17) graduate from Northwestern. I studied Mathematics, Econo
 
 Thanks for reading!
 
-<div style="text-align:center; padding-right: 1em">
+<div style="text-align:center">
   <a href="https://github.com/nwupkc"><i class="fa fa-github fa-2x" style="color:black"></i></a>
+  &nbsp;
   <a href="https://www.linkedin.com/in/sungwan-pk-kim-4709a3a7"><i class="fa fa-linkedin fa-2x" style="color:black"></i></a>
 </div>
