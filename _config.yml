@@ -18,3 +18,4 @@ author:
   email:             nwupkc@gmail.com
 
 plugins: [jekyll-paginate]
+markdown: kramdown
