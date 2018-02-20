@@ -2,12 +2,13 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+# relative_permalinks: true
 
 # Setup
 title:               PK
 tagline:             'Blog'
 description:         '12 Weeks Journey into Data Science'
-url:                 http://lanyon.getpoole.com
+url:                 https://nwupkc.github.io
 baseurl:             ''
 paginate:            1
 
@@ -15,7 +16,6 @@ paginate:            1
 author:
   name:              PK
   url:               https://nwupkc.github.io
-  email:             nwupkc@gmail.com
 
 plugins: [jekyll-paginate]
 markdown: kramdown
