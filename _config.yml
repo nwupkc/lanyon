@@ -9,7 +9,7 @@ tagline:             'Blog'
 description:         '12 Weeks Journey into Data Science'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 # About/contact
 author:

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Linear Regression and Learning Curve Challenges
+mathjax: true
 ---
 
 ### Challenge 1
