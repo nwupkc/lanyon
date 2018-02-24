@@ -12,7 +12,7 @@ Now, I am a Data Scientist at Metis. Metis is an immersive Data Science Bootcamp
 Thanks for reading!
 
 <div style="text-align:center">
-  <a href="https://github.com/nwupkc"><i class="fa fa-github fa-2x" style="color:black"></i></a>
+  <a href="https://github.com/nwupkc"><i class="fa fa-github fa-2x fa-about" fa-border></i></a>
   &nbsp;
-  <a href="https://www.linkedin.com/in/sungwan-pk-kim-4709a3a7"><i class="fa fa-linkedin fa-2x" style="color:black"></i></a>
+  <a href="https://www.linkedin.com/in/sungwan-pk-kim-4709a3a7"><i class="fa fa-linkedin fa-2x fa-about" fa-border></i></a>
 </div>

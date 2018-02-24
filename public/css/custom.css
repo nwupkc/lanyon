@@ -14,3 +14,17 @@
 	    margin-top: 80px;
       padding-right: 0.5em;
 }
+
+.fa-about {
+  color: #000000;
+}
+.fa-about:hover {
+  color: #268bd2;
+}
+
+.fa-sidebar{
+  color: #ffffff;
+}
+.fa-sidebar:hover{
+  color: #268bd2;
+}
