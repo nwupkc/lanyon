@@ -5,7 +5,7 @@ title: About
 
 Hi, I'm PK.
 
-I am a recent (Dec '17) graduate from Northwestern where I studied Mathematics, Economics, and Finance at Northwestern.
+I am a recent (Dec '17) graduate from Northwestern where I studied Mathematics, Economics, and Finance.
 
 Now, I am a Data Scientist at Metis. Metis is an immersive Data Science Bootcamp in New York covering Machine Learning, Statistics, Programming, and many more!
 
