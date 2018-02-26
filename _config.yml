@@ -4,13 +4,15 @@
 permalink:           pretty
 # relative_permalinks: true
 
+avatar: https://avatars3.githubusercontent.com/u/26260016?s=400&u=3453813c65582e6c58b34ea045ab2fb15bc4e111&v=4
+
 # Setup
 title:               PK
 tagline:             'Blog'
 description:         '12 Weeks Journey into Data Science'
 url:                 https://nwupkc.github.io
 baseurl:             ''
-paginate:            5
+paginate:            1
 
 # About/contact
 author:
