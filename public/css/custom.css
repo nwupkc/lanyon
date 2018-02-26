@@ -48,3 +48,13 @@
     background-color: #505050;
     color: white;
 }
+
+.left
+{
+  float: left;
+}
+
+.right
+{
+  float: right;
+}
