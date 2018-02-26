@@ -38,7 +38,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: 400;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -58,4 +58,5 @@
 .right
 {
   float: right;
+  margin-top: 15px;
 }
