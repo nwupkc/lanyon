@@ -10,7 +10,7 @@ tagline:             'Blog'
 description:         '12 Weeks Journey into Data Science'
 url:                 https://nwupkc.github.io
 baseurl:             ''
-paginate:            1
+paginate:            5
 
 # About/contact
 author:
