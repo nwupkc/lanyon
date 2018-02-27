@@ -17,9 +17,11 @@
 
 .fa-about {
   color: #505050;
+  transition-duration: 0.2s;
 }
 .fa-about:hover {
   color: #268bd2;
+  transition-duration: 0.2s;
 }
 
 .fa-sidebar{

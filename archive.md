@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Blog Posts
+title: Articles
 ---
 
 
 {% for post in site.posts %}
-  * {{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; *{{ post.date | date_to_string }} &raquo; [ {{ post.title }} ]({{ post.url }})*
 {% endfor %}
