@@ -3,48 +3,37 @@
 
   {% include head.html %}
 
-  <body class="layout-reverse">
-
-    {% include sidebar.html %}
-
-    <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
-         content to avoid any CSS collisions with our real content. -->
+  <body>
     <div class="wrap">
       <div class="masthead">
         <div class="container">
           <h3 class="masthead-title">
-            <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-            <small>{{ site.tagline }}</small>
+            <ul class='h'>
+              <li class='h'><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></li>
+              <li class='h'><a href="{{ site.baseurl }}/archive">Journal</a></li>
+              <li class='h' style="float:right"><a href="https://github.com/nwupkc";><i class="fa fa-github fa-lg"></i></a>
+              <a href="https://www.linkedin.com/in/nwupkc/" style="padding:0;"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+            </ul>
           </h3>
         </div>
       </div>
+    </div>
+    <h1 class="header"></h1>
 
       <div class="container content">
         {{ content }}
       </div>
     </div>
 
-    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script>
-      (function(document) {
-        var toggle = document.querySelector('.sidebar-toggle');
-        var sidebar = document.querySelector('#sidebar');
-        var checkbox = document.querySelector('#sidebar-checkbox');
+    <img src="/images/default_images/7aaf5e7dccbeef9388aa132a139689ec.png" alt="kpattern" width="25" height="25" class="center">
+    <div class="foot">
+      <p>
+        &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+      </p>
+    </div>
 
-        document.addEventListener('click', function(e) {
-          var target = e.target;
-
-          if(!checkbox.checked ||
-             sidebar.contains(target) ||
-             (target === checkbox || target === toggle)) return;
-
-          checkbox.checked = false;
-        }, false);
-      })(document);
-    </script>
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-
     {% if jekyll.environment == 'production' %}
     {% include google_analytics.html %}
     {% endif %}
