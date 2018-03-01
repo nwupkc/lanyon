@@ -5,10 +5,5 @@ permalink:           pretty
 title:               pk
 url:                 https://nwupkc.github.io
 
-# About/contact
-author:
-  name:              PK
-  url:               https://nwupkc.github.io
-
 plugins: [jekyll-paginate]
 markdown: kramdown

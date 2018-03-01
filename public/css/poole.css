@@ -131,24 +131,27 @@ dd {
 
 /* Lists for headings */
 
-ul.h {
+ul.head {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    font-family: "PT Serif", "PT Sans"
 }
-li.h {
+li.head {
     float: left;
     font-size: 0.9rem;
     color: white;
+    font-family: "PT Serif", "PT Sans"
 }
-li.h a {
+li.head a {
     display: block;
     color: #fff;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
     display: inline;
+    font-family: "PT Serif", "PT Sans"
 }
 
 /* Change the link color to #111 (black) on hover */
