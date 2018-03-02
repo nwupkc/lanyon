@@ -2,7 +2,7 @@
 permalink:           pretty
 
 # Setup
-title:               pk
+title:               PK
 url:                 https://nwupkc.github.io
 
 plugins: [jekyll-paginate]
