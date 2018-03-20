@@ -6,15 +6,12 @@ title: Classification Metrics
 
 ## Confusion Matrix
 
-<table text-align="center">
+<table style="text-align:center;">
   <tr>
-  	<td></td>
-    <td></td>
+  	<td colspan="2" rowspan="2"></td>
     <td colspan="2">Predicted</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
     <td>Yes</td>
     <td>No</td>
   </tr>
@@ -22,11 +19,13 @@ title: Classification Metrics
     <td rowspan="2">Actual</td>
     <td>Yes</td>
     <td >True Positive</td>
-    <td >False Negative</td>
+    <td >False Negative <br />
+    (Type II error)</td>
   </tr>
   <tr>
     <td>No</td>
-    <td >False Positive</td>
+    <td >False Positive <br />
+    (Type I error)</td>
     <td >True Negative</td>
   </tr>
 </table>
@@ -73,5 +72,5 @@ $$F_1$$ score is the harmonic (weighted) mean of precision and recall. The harmo
 $$F_1 = \frac{2}{\frac{1}{precistion}+{\frac{1}{recall}}}
 = 2\cdot\frac{precision\cdot recall}{precision+recall}
 = \frac{TP}{TP + \frac{FN+FP}{2}}$$  
-  
+
 $$F_1$$ score gives a convenient way to compare classifiers.
