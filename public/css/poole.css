@@ -140,24 +140,23 @@ ul.head {
 }
 li.head {
     float: left;
-    font-size: 0.9rem;
+    /* font-size: 1rem; */
     color: white;
     font-family: "PT Serif", "PT Sans"
 }
 li.head a {
     display: block;
+    font-size: 0.8rem;
     color: #fff;
     text-align: center;
-    padding: 10px 10px;
+    padding: 12px 12px;
     text-decoration: none;
     display: inline;
     font-family: "PT Serif", "PT Sans"
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
-    color:
-}
+
 
 dt {
   font-weight: bold;
@@ -298,7 +297,7 @@ tbody tr:nth-child(odd) th {
  */
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 300;
 }
 

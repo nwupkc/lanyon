@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Articles
+header: /images/default_images/Donggwol-do.jpg
 ---
 
 

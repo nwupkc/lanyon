@@ -59,6 +59,9 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
+/* Images */
+
 .center-image
 {
     margin: 0 auto;
@@ -72,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .masthead {
-  padding-top: 0.5rem;
+  padding-top: 0.3rem;
   padding-bottom: 0.5rem;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
@@ -108,6 +111,12 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 99;
   -webkit-filter: brightness(60%); /* Safari 6.0 - 9.0 */
   filter: brightness(60%);
+}
+
+.header:hover {
+  filter: None;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 
 

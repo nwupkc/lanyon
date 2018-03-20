@@ -11,14 +11,17 @@
             <ul class='head'>
               <li class='head'><a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a></li>
               <li class='head'><a href="{{ site.baseurl }}/archive">Journal</a></li>
-              <li class='head' style="float:right"><a href="https://github.com/nwupkc";><i class="fa fa-github fa-lg"></i></a>
-              <a href="https://www.linkedin.com/in/nwupkc/" style="padding:0;"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+              <li class='head'><a href="{{ site.baseurl }}/skills">Skills</a></li>
+              <li class='head' style="float:right"><a href="https://github.com/nwupkc";><i class="fab fa-github fa-lg"></i></a>
+              <a href="https://www.linkedin.com/in/nwupkc/" style="padding:0;"><i class="fab fa-linkedin fa-lg"></i></a></li>
             </ul>
           </h3>
         </div>
       </div>
     </div>
-    <h1 class="header"></h1>
+
+    <h1 class="header" {% if page.header %} style="background-image: url('{{ page.header }}')" {% endif %}></h1>
+
 
       <div class="container content">
         {{ content }}
@@ -29,7 +32,7 @@
     <img src="/images/default_images/7aaf5e7dccbeef9388aa132a139689ec.png" alt="kpattern" width="25" height="25" class="center">
     <div class="foot">
       <p>
-        &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        &copy; {{ site.time | date: '%Y' }} Sungwan Kim. All rights reserved.
       </p>
     </div>
 

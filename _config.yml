@@ -1,9 +1,5 @@
-# Permalinks
 permalink:           pretty
-
-# Setup
 title:               PK
 url:                 https://nwupkc.github.io
-
-plugins: [jekyll-paginate]
-markdown: kramdown
+plugins:             [jekyll-paginate]
+markdown:            kramdown
