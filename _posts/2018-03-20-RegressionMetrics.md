@@ -28,7 +28,7 @@ In general, total sum of squares = explained sum of squares + residual sum of sq
 
 ### Mean Squared Error and Root-Mean-Square Error
 
-The mean squared error ($$MSE$$) is another popular metrics in regression settings. The mean squared error is the explained sum of squares divided by the number of observations.
+The mean squared error ($$MSE$$) is another popular metrics in regression settings. The mean squared error is the residual sum of squares divided by the number of observations.
 
 $$MSE = \frac{1}{n} \cdot RSS = \frac{1}{n} \sum\limits_{i=1}^n (y_i - \hat y_i)^2$$
 
