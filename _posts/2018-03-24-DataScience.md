@@ -42,4 +42,4 @@ I drew the good old T-diagram to weigh the pros and cons. I was leaning toward b
 
 I found a profession that I can proudly call my "calling". I know it takes people years or even their entire life to find something that they are passionate about, so I am very glad that I found data science early on. The more I learn about data science, the more I realize that I chose the right path. While data science is challenging, I find it rewarding and fun. I think I found my _ikigai_, a Japanese word that roughly translates into "a thing that brings satisfaction and meaning to life, essentially a thing that makes life worth living". The description of _ikigai_ usually comes with this venn diagram and for me, data science lies in the intersection of all four circles.
 
-![png](/images/ikigai.png){: .center-image }
+![png](/images/Ikigai.png){: .center-image }
